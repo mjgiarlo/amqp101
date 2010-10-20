@@ -17,7 +17,7 @@ channel.basic_publish(exchange="direct",
 # DONE during service instantiation
 # - client publishes to topic exchange
 channel.basic_publish(exchange="topic",
-                      routing_key="psu.curation.ingest",
+                      routing_key="psu.stewardship.services.ingest",
                       body="client -> ingest/storage/identity (via topic)")
 
 # pool/worker pattern
