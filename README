@@ -1,1 +1,5 @@
 Playing around with amqp/rabbitmq and pika as a potential stewardship services architecture backplane.
+
+To test this out, I normally start up twi gnu screen screens.  In one I run the consumer, which creates a bunch of exchanges and queues and waits for messages to be published.  In the other I run the publisher, and then watch the messages roll in.
+
+To get started install rabbitmq-server and easy_install pika.
